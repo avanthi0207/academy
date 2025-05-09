@@ -154,7 +154,39 @@
     margin-right: 8px;
   }
 
-  
+   .Social-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .social-link-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 40px;
+      background-color: rgba(255,255,255,0.1);
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+  .social-link-items:hover {
+    transform: translateY(-10px);
+    background-color: rgba(255,255,255,0.2);
+  }
+
+    .social-link-items i {
+    font-size: 18px;
+    }
+
+   .copyrights {
+      padding: 20px;
+      background-color: transparent;
+      margin-top: -50px;
+    }
+
   .footer ul {
     padding-left: 0;
   }
@@ -189,6 +221,13 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+   .Social-links a{
+    color: white;
+   }
+
+   .Social-links  a :hover{
+     color: #4a9fe0;
+   }
 </style>
 <body>
   <nav class="navbar navbar-expand-lg" id="navbar">
